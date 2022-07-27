@@ -1,0 +1,313 @@
+img
+@font-face
+{
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-ExtraBoldItalic.woff2') format('woff2'),url('../fonts/Raleway-ExtraBoldItalic.woff') format('woff');
+	font-weight: 800;
+	font-style: italic;
+}
+
+@font-face
+{
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Bold.woff2') format('woff2'),url('../fonts/Raleway-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face
+{
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Italic.woff2') format('woff2'),url('../fonts/Raleway-Italic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face
+{
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Regular.woff2') format('woff2'),url('../fonts/Raleway-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ================ BODY ================ */
+body
+{
+	background-color: #DBDBDB;
+	/* couleur de fond du site*/
+}
+
+/*============HEADER============*/
+header
+{
+	margin-left: 6%;
+	margin-right: 6.3%;
+}
+
+.invisible
+{
+	/* permet de cacher les bouton pour la fonction en js */
+	visibility: hidden;
+}
+
+/* =======H1====== */
+h1{
+	font-size: 3.5vw;
+	margin-top:0.5em;
+	margin-left: 25%;
+	padding-bottom: 1em;
+}
+
+h1::after
+{
+	content: "";
+	display:block;
+	width: 68%;
+	height:3px;
+	background: black;
+	transform : scale(0);
+	transition: transform 0.7s ease-in-out;
+}
+
+h1:hover::after
+{
+	/* création d'une animation pour souligner le h1*/
+	transform: scale(1.5);
+}
+
+/*=====MAIN====*/
+/* ==MAIN ACTUALITE== */
+h2{
+	font-size: 2.5vw;
+}
+#gang::after
+{
+	content: "";
+	display:block;
+	width: 27%;
+	height:1.5px;
+	background: black;
+	transform : scale(0);
+	transition: transform 0.7s ease-in-out;
+}
+
+#gang:hover::after
+{
+	/* création d'une animation pour souligner le h2*/
+	transform: scale(1.5);
+}
+
+#gang
+{
+	margin-left: 43%;
+	padding-bottom: 1em;
+}
+/*========ACTUALITE=======*/
+.ho h4{
+color:#ECF0F1 ;
+padding-left: 40em;
+padding-top:  12em;
+font-weight: bold;
+}
+h4{
+	font-size:1.9em;
+}
+
+.parallax5 { /* grosse image de centre**/
+  background-image: url("../img/photo14.jpg");
+
+  min-height: 400px;
+  padding: 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.parallax6 { /* grosse image de centre**/
+  background-image: url("../img/photo12.jpg");
+
+  min-height: 400px;
+  padding: 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax7 { /* grosse image de centre**/
+  background-image: url("../img/photo13.jpg");
+
+  min-height: 400px;
+  padding: 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*===MAIN EVENEMENTS==*/
+   /* H2 EVENEMENT */
+#zang
+{
+	padding-top: 0.5em;
+	margin-left: 43%;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+#zang::after
+{
+	content: "";
+	display:block;
+	width: 26%;
+	height:1.5px;
+	background: black;
+	transform : scale(0);
+	transition: transform 0.7s ease-in-out;
+}
+
+#zang:hover::after
+{
+	/* création d'une animation pour souligner le h2*/
+	transform: scale(1.5);
+}       /* fin H2 EVENEMENT*/
+
+ /* === Iteneraire de balade === */
+ #evenement{
+	 padding-left:2em;
+	 padding-bottom: 1em;
+ }
+.parallax1 { /* grosse image de centre**/
+  background-image: url("../img/photo0.jpg");
+
+  min-height: 400px;
+  padding: 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 { /* grosse image de centre**/
+  background-image: url("../img/photo19.jpg");
+
+  min-height: 400px;
+  padding: 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 { /* grosse image de centre**/
+  background-image: url("../img/photo20.jpg");
+
+  min-height: 400px;
+  padding: 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax4 { /* grosse image de centre**/
+  background-image: url("../img/photo21.jpg");
+
+  min-height: 400px;
+  padding: 0;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+   /* === Iteneraire de balade === */
+        /* == EVENEMENT Jeu Concours == */
+
+.zo{ /* class du jeu concours */
+	margin-left: 15%;
+	margin-right: 13%;
+	padding-bottom: 2em;
+	padding-top: 6em;
+}
+#flotant{
+	margin-left: 30%;
+}
+#taille{
+	font-weight: normal;
+	font-size: 1.5em;
+}
+
+/* ==MAIN AUTRES ==*/
+#bang
+{
+	padding-top: 3em;
+	margin-left: 48%;
+	padding-bottom: 1em;
+}
+
+#bang::after
+{
+	content: "";
+	display:block;
+	width: 20%;
+	height:1.5px;
+	background: black;
+	transform : scale(0);
+	transition: transform 0.7s ease-in-out;
+}
+
+#bang:hover::after
+{
+	/* création d'une animation pour souligner le h2*/
+	transform: scale(1.5);
+}
+
+.jo
+{
+	margin-left: 15%;
+	margin-right: 13%;
+	padding-bottom: 6em;
+}
+
+#button
+{
+	margin-left: 86%;
+	margin-top: 2%;
+}
+
+/* =======FOOTER====== */
+section
+{
+    padding: 60px 0;
+}
+
+section .section-title
+{
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#footer
+{
+    background: teal ;
+}
+
+#footer h5
+{
+    padding-left: 10px;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+
+#footer a
+{
+    color: #ffffff;
+    text-decoration: none ;
+    background-color: transparent;
+}

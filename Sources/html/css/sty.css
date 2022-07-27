@@ -1,0 +1,25 @@
+
+/* PAGE DE CON & INSCRIPTION */
+#PAGE
+{
+	height: 100%;
+	width: 100%;
+	z-index: 997;
+	position: relative;
+	top: -1300px;
+
+}
+
+#fondI
+{
+	z-index: 999;
+	position: relative;
+	color: white;
+	padding-top: 5em;
+	top: 120px;
+
+	}
+
+body{
+	background-image: url(../img/sky.jpg);
+}

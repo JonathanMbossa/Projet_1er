@@ -1,0 +1,413 @@
+@font-face
+{
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-ExtraBoldItalic.woff2') format('woff2'),url('../fonts/Raleway-ExtraBoldItalic.woff') format('woff');
+	font-weight: 800;
+	font-style: italic;
+}
+
+@font-face
+{
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Bold.woff2') format('woff2'),url('../fonts/Raleway-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face
+{
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Italic.woff2') format('woff2'),url('../fonts/Raleway-Italic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face
+{
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Regular.woff2') format('woff2'),url('../fonts/Raleway-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+.bolosse
+{
+	/* classe pour la div du fond de l'img*/
+	background-img: url("../img/road1.jpg");
+	height: 60em;
+	width: 100%;
+	min-height: 40%;
+	min-width: 4%;
+	padding-top: 3em;
+	/* permet de d&caler la div connexion */
+	background-attachment: fixed;
+}
+
+.au
+{
+	/* div qui contient les infomrations de connexion */
+	border: 4px solid;
+	border-radius: 10px;
+	margin-left: 10%;
+	width: 35%;
+	max-width: 40%;
+	padding-bottom: 15%;
+	position: absolute;
+	height:50em;
+}
+
+div > h1
+{
+	padding-left: 22%;
+	color: white;
+	font-size: 4em;
+	padding-top: 10%;
+}
+
+div > p
+{
+	color: white;
+}
+
+.btn
+{
+	color: white;
+}
+
+.form-inline
+{
+	padding-left: 15%;
+	color: blue;
+}
+
+.form-inline > input
+{
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+.btn
+{
+	/* pour contrer les boutons de connexion */
+	background-color: white;
+	color: black;
+	margin-left: 70%;
+	border-color: black;
+}
+
+.xx
+{
+	padding-top: 16%;
+	padding-left: 15%;
+	font-weight: bold;
+}
+
+.x
+{
+	padding-top: 0.2%;
+	padding-left: 15%;
+	font-weight: bold;
+}
+
+.dd
+{
+	/* div qui contient les infomrations d'inscription */
+	border: 4px solid;
+	border-radius: 10px;
+	margin-left: 55%;
+	width: 35%;
+	max-width: 40%;
+	padding-bottom: 9%;
+	position: absolute;
+	height:50em;
+}
+
+/*------------------------------------ NOUVEL PAGE---------------------*/
+.hh
+{
+	background-img:url("../img/space.jpg");
+	height: 60em;
+}
+
+body
+{
+	margin: 0px;
+}
+
+.oo
+{
+	background-img: url("../img/s-1000-rr.jpg");
+	width: 100%;
+	height: 35em;
+	background-repeat: no-repeat;
+}
+
+.left2
+{
+	background-color: white;
+	display: flex;
+	padding-top: 0.5%;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	border: 5px solid black;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.left
+{
+	color: black;
+	align-items:center;
+	transition: 1s;
+	margin-left: 3em;
+	margin-right:3em;
+	font-weight: bold;
+}
+
+.ff
+{
+	border: 1px solid;
+	border-radius: 10px;
+	margin-left: 13%;
+	width: 30%;
+	max-width: 40%;
+	margin-top: 10%;
+	position: absolute;
+	overflow: hidden;
+}
+
+.gg
+{
+	border: 1px solid;
+	border-radius: 10px;
+	margin-left: 57%;
+	width: 30%;
+	max-width: 40%;
+	margin-top: 10%;
+	position: absolute;
+	overflow: hidden;
+}
+
+
+/*------------------------------------ NOUVEL PAGE EQUIPEMENT---------------------*/
+
+
+
+#culot{
+	background-color: #DBDBDB;
+}
+
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active
+{
+  border: none;
+    padding: 18px 25px;
+    color:#fff;
+    background:#272e38;
+    border-radius:0;
+}
+
+
+
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus
+{
+  border: none;
+    background: orange;
+    color:#fff;
+    border-radius:0;
+    transition:background 0.20s linear;
+}
+
+
+
+
+
+h3.h3{
+	text-align:center;
+	margin:1em;
+	font-weight:bold;
+	} /* TITRE  */
+
+/********************* shopping Demo-1 **********************/
+.product-grid{text-align:center;
+	padding:0 0 72px;
+	border:1px solid rgba(0,0,0,.1);
+	overflow:hidden;
+	position:relative;
+	z-index:1}
+
+.product-grid .product-image{
+	position:relative;
+	transition:all .3s ease 0s
+}
+
+.product-grid .product-image a{
+	display:block
+}
+
+.product-grid .product-image img{
+	width:100%;
+	height:auto
+}
+
+.product-grid:hover .pic-1{
+	opacity:1
+}
+
+.product-grid .pic-2{
+	opacity:0;
+	position:absolute;
+	top:0;
+	left:0;
+	transition:all .3s ease-out 0s
+}
+
+.product-grid:hover .pic-2{
+	opacity:1
+}
+
+.product-grid .social{
+	width:150px;
+	padding:0;
+	margin:0;
+	list-style:none;
+	opacity:0;
+	transform:translateY(-50%) translateX(-50%);
+	position:absolute;
+	top:60%;
+	left:50%;
+	z-index:1;
+	transition:all .3s ease 0s}
+
+.product-grid:hover .social{
+	opacity:1;top:50%
+}
+
+.product-grid .social li{
+	display:inline-block
+}
+
+.product-grid .social li a{
+	color:#fff;
+	background-color:#333;
+	font-size:16px;
+	line-height:40px;
+	text-align:center;
+	height:40px;
+	width:40px;
+	margin:0 2px;
+	display:block;
+	position:relative;
+	transition:all .3s ease-in-out
+}
+
+.product-grid .social li a:hover{
+	color:#fff;
+	background-color:#ef5777
+}
+
+.product-grid .social li a:after,.product-grid .social li a:before{content:attr(data-tip);color:#fff;background-color:#000;font-size:12px;letter-spacing:1px;line-height:20px;padding:1px 5px;white-space:nowrap;opacity:0;transform:translateX(-50%);position:absolute;left:50%;top:-30px}
+.product-grid .social li a:after{content:'';height:15px;width:15px;border-radius:0;transform:translateX(-50%) rotate(45deg);top:-20px;z-index:-1}
+.product-grid .social li a:hover:after,.product-grid .social li a:hover:before{opacity:1}
+
+.product-grid .product-discount-label,.product-grid .product-new-label{color:#fff;background-color:#ef5777;font-size:12px;text-transform:uppercase;padding:2px 7px;display:block;position:absolute;top:10px;left:0}
+.product-grid .product-discount-label{background-color:#333;left:auto;right:0}
+
+.product-grid .rating{color:#FFD200;font-size:12px;padding:12px 0 0;margin:0;list-style:none;position:relative;z-index:-1}
+.product-grid .rating li.disable{color:rgba(0,0,0,.2)}
+
+.product-grid .product-content{background-color:#fff;text-align:center;padding:12px 0;margin:0 auto;position:absolute;left:0;right:0;bottom:-27px;z-index:1;transition:all .3s}
+
+.product-grid:hover .product-content{bottom:0}
+
+.product-grid .title{font-size:13px;font-weight:400;letter-spacing:.5px;text-transform:capitalize;margin:0 0 10px;transition:all .3s ease 0s}
+.product-grid .title a{color:#828282}
+.product-grid .title a:hover,.product-grid:hover .title a{color:#ef5777}
+
+.product-grid .price{color:#333;font-size:17px;font-family:Montserrat,sans-serif;font-weight:700;letter-spacing:.6px;margin-bottom:8px;text-align:center;transition:all .3s}
+.product-grid .price span{color:#999;font-size:13px;font-weight:400;text-decoration:line-through;margin-left:3px;display:inline-block}
+
+.product-grid .add-to-cart{color:#000;font-size:13px;font-weight:600}
+
+@media only screen and (max-width:990px){.product-grid{margin-bottom:30px}
+}
+
+/* pour le footer */
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: orange !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}

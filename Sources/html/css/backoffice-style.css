@@ -1,0 +1,104 @@
+header{
+  margin-bottom: 20px;
+}
+
+.row{
+  --bs-gutter-x: 0rem !important;
+}
+
+nav > div a.nav-item.nav-link,
+nav > div a.nav-item.nav-link.active,
+nav > div input.nav-item.nav-link
+{
+  border: none;
+  padding: 18px 25px;
+  color:#fff;
+  background:#272e38;
+  border-radius:0;
+
+	box-sizing: border-box;
+	border-color: #3c424b;
+	border-style: solid;
+	border-width: 0.5px;
+}
+
+nav > div a.nav-item.nav-link.active{
+  background: orange;
+}
+
+nav > div input.nav-item.nav-link{
+  background:#52575f;
+}
+
+
+nav > div a.nav-item.nav-link:hover,
+nav > div a.nav-item.nav-link:focus
+{
+  border: none;
+    background: orange;
+    color:#fff;
+    border-radius:0;
+    transition:background 0.20s linear;
+}
+
+/* ===========INDEX========= */
+div.col-md-3.col-sm-6{
+  border:1px solid rgba(0,0,0,.1);
+  position:relative;
+  margin: auto;
+  width: 500px;
+  height: fit-content;
+  margin-top: 20px;
+}
+div.col-md-3.col-sm-6 > h1{
+  height: 13vh;
+  text-align: center;
+}
+
+div.col-md-3.col-sm-6:hover{
+  box-shadow: 0 0 5px black;
+  transition: .2s;
+}
+
+/* ========DB LIST======= */
+td > img{
+  max-width: 200px;
+}
+div > input#delete.form-control{
+  width: 400px;
+}
+div#suppr{
+  position: fixed;
+  overflow: hidden;
+  margin-left: -400px;
+  margin-top: 200px;
+  width: 500px;
+}
+div#suppr:hover{
+    margin-left: 0px;
+    transition: 1s;
+}
+div#modif{
+  position: fixed;
+  overflow: hidden;
+  margin-left: -400px;
+  margin-top: 400px;
+  width: 500px;
+}
+div#modif:hover{
+    margin-left: 0px;
+    transition: 1s;
+}
+a#redirect {
+  text-decoration: none;
+  color: black;
+  padding: auto;
+}
+/* ============ADD FORM============*/
+div.container > form{
+  width: auto;
+}
+td > a {
+  text-decoration: none;
+  color: black;
+}

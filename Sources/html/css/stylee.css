@@ -1,0 +1,24 @@
+#MDP{
+background-image: url(../img/plant.jpg);
+
+}
+
+#SCANF{
+
+	text-align: center;
+	margin-top: 3em;
+}
+
+#BUTTON{
+ margin-top: 4em;
+
+ text-align: center;
+}
+
+
+#MDP2{
+	margin-top: 1em;
+	color: grey;
+	text-align: center;
+	font-size: 6vw;
+}
